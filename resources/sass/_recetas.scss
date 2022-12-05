@@ -1,0 +1,80 @@
+body {
+	//font-family: $parrafos-font-family; 
+	background-color:#eee;
+}
+
+trix-editor {
+	min-height: 400px;
+	height:auto!important;
+}
+
+.bg-primary .navbar-brand {
+	color:white;
+	font-family: $font-family-sans-serif;
+	font-size: 2rem;
+	font-family: 'Fredoka One', cursive;
+	color: #FFF!important;
+	font-size: 2.4rem;
+	text-decoration:none;
+	&:hover{
+		color:white;
+
+	}
+}
+
+.icono {
+	width :36px;
+
+}
+.barra{
+	background-color:#ED4646!important;
+}
+
+.fecha{
+	color:#ED4646 !important;
+}
+.receta-meta p{
+	font-size:12px;
+	font-weight:bold;
+}
+.navbar-light{
+	.navbar-nav{
+		.nav-link{
+		color:#FFF;
+		font-size:1.4rem;
+			&focus,
+			&hover{
+				color:#FFF;
+			}
+		}
+	}
+}
+
+.titulo-categoria{
+	font-family: 'Cabin', sans-serif;
+	color:#333;
+	font-size:1.8rem;
+	border-bottom: 3px solid #ED4646 !important;
+	display:inline-block;
+	padding-bottom:.5 rem;
+	padding-right: 2rem;
+}
+
+.btn-receta,
+.btn-receta:hover{
+	background-color:#ED4646 !important;
+	border:none;
+}
+.owl-carousel .owl-stage{display:flex;}
+.card{
+	display:flex;
+	flex:1 0 auto;
+	height: 100%;
+}
+.card-body{
+	position:relative;
+	oveflow:hidden;
+	display:flex;
+	flex-direction:column;
+	align-items:stretch;
+}
